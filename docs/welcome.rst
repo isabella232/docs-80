@@ -10,6 +10,13 @@ Use the left navigation bar to browse the documentation, the Search bar in the t
 Release Notes
 =============
 
+1.2.0 - Unreleased
+------------------
+
+* [FEATURE] Add package pages
+* [FEATURE] Add Yarn support
+* [DOC] Fix documentation for integrations
+
 1.1.3 - 2017-03-21
 ------------------
 
