@@ -16,6 +16,7 @@ Release Notes
 * [FEATURE] Add package pages
 * [FEATURE] Add Yarn support
 * [DOC] Fix documentation for integrations
+* [BUG] Fix a bug with PHP dependencies using the caret operator
 
 1.1.3 - 2017-03-21
 ------------------
