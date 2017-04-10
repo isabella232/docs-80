@@ -10,13 +10,16 @@ Use the left navigation bar to browse the documentation, the Search bar in the t
 Release Notes
 =============
 
-1.2.0 - Unreleased
+1.2.0 - 2017-04-10
 ------------------
 
 * [FEATURE] Add package pages
+* [FEATURE] Add Packages changelogs
+* [FEATURE] Project page revamped
 * [FEATURE] Add Yarn support
 * [DOC] Fix documentation for integrations
 * [BUG] Fix a bug with PHP dependencies using the caret operator
+* [BUG] The button "Refresh repositories" was emptying the list with bitbucket.org
 
 1.1.3 - 2017-03-21
 ------------------
