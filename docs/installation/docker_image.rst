@@ -33,15 +33,11 @@ To create local volumes, on you server::
 
 .. _ssl_configuration:
 
-License key
------------
-
-As you will see, in all the ``docker run`` commands, there is a ``-e LICENSE_KEY=YOUR_OWN_LICENSE_KEY \``. You need to replace ``YOUR_OWN_LICENSE_KEY`` with the license we gave you. If you don't have one, please get in touch and we'll get that sorted.
-
 Configuring SSL
 ---------------
 
-A valid certificate must be provided to run Gemnasium Enterprise with the integrated SSL server (nginx).
+A valid certificate must be provided to run Gemnasium Enterprise with the integrated SSL webserver.
+If you don't have a valid certificate available, you can obtain one from `Let's Encrypt <https://letsencrypt.org>`_ for free. Please refer to the :ref:`letsencrypt` section.
 If you don't need Gemnasium Enterprise to serve content on https directly, go directly to the section: :ref:`run_without_ssl`.
 
 The certificate files **must** be named after the server name.

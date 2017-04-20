@@ -24,3 +24,7 @@ Software
 * OS: RedHat (RHEL, Atomic Host, Centos & Fedora flavors), Debian Stable. Any OS running docker should work but is not officially supported.
 * Docker >= 1.9.1
 
+License key
+-----------
+
+As you will see, in all the ``docker run`` commands, there is a ``-e LICENSE_KEY=YOUR_OWN_LICENSE_KEY \``. You need to replace ``YOUR_OWN_LICENSE_KEY`` with the license we gave you. If you don't have one, please get in touch and we'll get that sorted.
