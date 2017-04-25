@@ -31,11 +31,11 @@ Theses hosts must be added to your current ``no_proxy`` var inside the container
 - ``nsqd``
 - ``postgresql``
 
-Theses hostnames are added to ``/etc/hosts`` when the container is starting, so it's important that a ``curl gemnasium-api:8081`` is working inside the container.
+Theses hostnames are added to ``/etc/hosts`` when the container is starting, so it's important that a ``curl gemnasium-api`` is working inside the container.
 
 .. code::
 
-    root@60bdf6bb1ab5:/# curl gemnasium-api:8081
+    root@60bdf6bb1ab5:/# curl gemnasium-api
     <a href="http://docs.gemnasium.apiary.io">Moved Permanently</a>.
 
 

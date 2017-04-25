@@ -10,6 +10,13 @@ Use the left navigation bar to browse the documentation, the Search bar in the t
 Release Notes
 =============
 
+1.2.1 - 2017-04-19
+------------------
+
+* [FEATURE] Add :ref:`letsencrypt` support
+* [FEATURE] Support Python "compatible release" operator (``~=``) as specified in `PEP 440 <https://www.python.org/dev/peps/pep-0440/#compatible-release>`_
+* [BUG] Invitations to team were sent again if role was updated
+
 1.2.0 - 2017-04-10
 ------------------
 

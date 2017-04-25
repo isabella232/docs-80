@@ -41,6 +41,7 @@ Contents:
    installation/backup
    installation/proxy
    installation/self_signed_certs
+   installation/letsencrypt
 
 .. _integrations-docs:
 
