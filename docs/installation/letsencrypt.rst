@@ -14,12 +14,18 @@ There are two different ways to configure your instance to use Let's Encrypt: Us
 Integrated Let's Encrypt client
 -------------------------------
 
-Gemnasium Entreprise features a Let's Encrypt client with:
+Gemnasium Enterprise features a Let's Encrypt client with:
 
 - Automatic renewal (one week before expiration)
 - TLS-SNI domain validation
 
 The generated certificate will be saved in ``/etc/gemnasium/ssl`` along with its private key. If you want to cache/persist these files, mount a volume into your container for this path.
+
+To enable Let's Encrypt support, use the following variables:
+
+* ``ENABLE_LETSENCRYPT_SSL``: set to ``true``
+* ``EXTERNAL_URL``: Your Let's Encrypt hostname (please note that LE only supports port 443)
+* ``REDIRECT_HTTP_TO_HTTPS``: is true by default, leave it as it.
 
 Limitations
 ^^^^^^^^^^^
