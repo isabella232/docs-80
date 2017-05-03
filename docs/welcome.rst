@@ -10,6 +10,14 @@ Use the left navigation bar to browse the documentation, the Search bar in the t
 Release Notes
 =============
 
+1.2.2 - 2017-05-03
+------------------
+
+* [FEATURE] Project repositories are now synced daily. In case a webhook is not working, the project will be up-to-date at least once per day
+* [FEATURE] Project logs improved, displaying the user (with their IP) who triggered the entry
+* [FEATURE] Add link to team invitation, in case the email is not received by the invitee (particularly usefull if SMTP is not configured)
+* [BUG] Some logs were not flushed to disk on exit (when restarting Gemnasium Enteprise)
+
 1.2.1 - 2017-04-19
 ------------------
 
