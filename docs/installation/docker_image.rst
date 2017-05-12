@@ -21,6 +21,9 @@ Send us the name of the account used and we will share the image with that user.
 Preparing volumes
 -----------------
 
+Linux
+~~~~~
+
 Persistent volumes are needed to store Gemnasium Enterprise data.
 The easiest way to get started, is to create local volumes on your server, but it can be any kind of volume supported by the docker engine.
 
@@ -30,6 +33,18 @@ To create local volumes, on you server::
 
     docker volume create --name gemnasium-data
     docker volume create --name gemnasium-logs
+
+Windows with Docker Quickstart Terminal
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Gemnasium Enterprise is not supported on Windows, but you can run it with Docker Quickstart Terminal. 
+Do not try using volumes shared with the Windows host ( /c/Users/... ), it will not work because required operations
+are not available. Instead just create volumes with docker:
+
+    docker volume create --name gemnasium-data
+    docker volume create --name gemnasium-logs
+
+They will be stored on the linux Virtual machine used by Docker.
 
 .. _ssl_configuration:
 
