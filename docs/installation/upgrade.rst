@@ -28,6 +28,9 @@ To upgrade Gemnasium Enterprise to a new version:
 
     docker run [...]
 
+.. note::
+    Please make sure that you don't accidentally remove the ``gemnasium``
+    container and its volumes using the ``-v`` option.
 
 Using nightly version
 ----------------------
