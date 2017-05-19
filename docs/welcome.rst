@@ -10,6 +10,12 @@ Use the left navigation bar to browse the documentation, the Search bar in the t
 Release Notes
 =============
 
+1.3.0 - 2017-05-19
+------------------
+
+* [FEATURE] Allow to search and filter projects and project dependencies.
+* [BUG] Fix project settings for synced projects
+
 1.2.2 - 2017-05-03
 ------------------
 
