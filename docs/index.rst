@@ -16,6 +16,7 @@ Contents:
    :caption: About
 
    welcome
+   License Agreement <eula>
 
 .. _user-docs:
 
