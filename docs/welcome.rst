@@ -10,6 +10,18 @@ Use the left navigation bar to browse the documentation, the Search bar in the t
 Release Notes
 =============
 
+1.3.1 - 2017-06-20
+------------------
+
+* [SECURITY] CSP headers have been refined
+* [BUG] Fix a bug randomly preventing some users to auth with user / password (when OAuth login sources are present)
+* [BUG] Fix a bug in Slack hook creation (returned URL was escaped twice)
+* [BUG] Fix sidebar when browsing GEE anonymously
+* [BUG] Fix broken page when coming back from Slack OAuth with error
+* [BUG] Fix projects not being removed from dashboard after deletion
+* [BUG] Repos metadata were not synchronized before the project was actually synced
+* [BUG] Other minor fixes
+
 1.3.0 - 2017-05-19
 ------------------
 
