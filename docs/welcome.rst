@@ -10,6 +10,11 @@ Use the left navigation bar to browse the documentation, the Search bar in the t
 Release Notes
 =============
 
+1.4.0 - 2017-10-26
+------------------
+
+* [FEATURE] Java (Maven support)
+
 1.3.1 - 2017-06-20
 ------------------
 
