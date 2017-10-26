@@ -55,3 +55,16 @@ Contents:
    integrations/bitbucketcloud
    integrations/bitbucketserver
    integrations/slack
+
+.. _languages-docs:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Languages
+
+   languages/ruby
+   languages/javascript
+   languages/php
+   languages/python
+   languages/java
+
