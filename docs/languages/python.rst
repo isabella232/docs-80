@@ -10,7 +10,6 @@ Supported features
 Limitations
 ------------
 
-* No distinction b/w runtime & development dependencies
-* Inclusion of requirement files is not supported
-* Inclusion of constraint files is not supported
-* Private repositories and gems are not supported
+* All dependencies are considered as "runtime"
+* Pip options (like `-r` to include another file) are ignored
+* Sections (like `[testing]`) are ignored

@@ -12,6 +12,6 @@ Limitations
 ------------
 
 * `Npm scopes <https://docs.npmjs.com/misc/scope>`_ are not yet supported
-* Private repositories and npm packages not supported. Packages will be listed, but no status can be determined.
-* `OptionalDependancies <https://docs.npmjs.com/files/package.json#optionaldependencies>`_ are not yet supported
+* Private repositories and npm packages not supported
+* `OptionalDependencies <https://docs.npmjs.com/files/package.json#optionaldependencies>`_ are not yet supported
 
