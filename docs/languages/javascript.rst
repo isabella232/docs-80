@@ -6,6 +6,7 @@ Supported features
 
 * package.json, npm-shrinkwrap.json and package-lock.json are supported
 * yarn.lock files are supported
+* Security advisories
 
 Limitations
 ------------

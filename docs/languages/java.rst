@@ -6,6 +6,7 @@ Supported features
 
 * Maven packages hosted on Maven Central
 * Maven POM XML
+* Security advisories
 
 Limitations
 ------------

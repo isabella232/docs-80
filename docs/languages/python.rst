@@ -5,6 +5,7 @@ Supported features
 ------------------
 
 * requirements.txt, requires.txt and setup.py files are supported
+* Security advisories
 
 Limitations
 ------------
