@@ -11,6 +11,6 @@ Limitations
 ------------
 
 * No distinction b/w runtime & development dependencies
-* Inclusion of requirement files
-* Inclusion of constraint files
-
+* Inclusion of requirement files is not supported
+* Inclusion of constraint files is not supported
+* Private repositories and gems are not supported
