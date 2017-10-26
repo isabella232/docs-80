@@ -9,5 +9,7 @@ Supported features
 Limitations
 ------------
 
-* TODO
+* No distinction b/w runtime & development dependencies
+* Inclusion of requirement files
+* Inclusion of constraint files
 
