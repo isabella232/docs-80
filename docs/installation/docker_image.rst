@@ -18,6 +18,45 @@ Send us the name of the account used and we will share the image with that user.
 
 .. _run_docker_image:
 
+QuickStart: Docker Compose
+---------------------------
+
+The easiest and fastest way to start with Gemnasium Enterprise is to use `Docker Compose <https://docs.docker.com/compose/>`_.
+Docker Compose is a command line tool available for free (and most of the time bundled with your Docker installation).
+With a single file, the minimum configuration needed by Gemnasium Enterprise is available at a glance.
+It's a good start, and the configuration should be tuned up with the rest of this page sections for production.
+
+Use this ``docker-compose.yml`` file to get started:
+
+.. code-block:: yaml
+
+  version: "3"
+  services:
+    gemnasium:
+      container_name: gemnasium
+      build: .
+      image: gemnasium/enterprise
+      restart: unless-stopped
+      ports:
+        - "80:80"   # api unsecure
+        - "443:443"  # api ssl
+      environment:
+        - EXTERNAL_URL=https://gemnasium.localhost
+        - SMTP_SERVICE_HOST
+        - SMTP_SERVICE_PORT
+        - SMTP_USER_NAME
+        - SMTP_PASSWORD
+        - SMTP_INSECURE
+        - LICENSE_KEY
+      volumes:
+          - gemnasium-data:/var/opt/gemnasium/
+  volumes:
+      gemnasium-data:
+          driver: local
+
+
+.. note:: The env vars must be declared in `docker-compose.yml` otherwise they are ignored (see :ref:`environment_variables`.).
+
 Preparing volumes
 -----------------
 
@@ -36,7 +75,7 @@ To create local volumes, on you server::
 Configuring SSL
 ---------------
 
-A valid certificate must be provided to run Gemnasium Enterprise with the integrated SSL webserver.
+A valid certificate must be provided to run Gemnasium Enterprise with the integrated SSL web server.
 If you don't have a valid certificate available, you can obtain one from `Let's Encrypt <https://letsencrypt.org>`_ for free. Please refer to the :ref:`letsencrypt` section.
 If you don't need Gemnasium Enterprise to serve content on https directly, go directly to the section: :ref:`run_without_ssl`.
 
