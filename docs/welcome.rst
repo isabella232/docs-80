@@ -10,6 +10,11 @@ Use the left navigation bar to browse the documentation, the Search bar in the t
 Release Notes
 =============
 
+1.4.1 - 2017-11-13
+------------------
+
+* [Bug] Fix a regression affecting Bitbucket Server integration
+
 1.4.0 - 2017-10-26
 ------------------
 
