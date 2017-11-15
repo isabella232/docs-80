@@ -10,6 +10,11 @@ Use the left navigation bar to browse the documentation, the Search bar in the t
 Release Notes
 =============
 
+1.4.2 - 2017-11-15
+------------------
+
+* [Bug] Fix Bitbucket Server integration when hosted in a subdirectory (e.g.: https://example.com/bitbucket)
+
 1.4.1 - 2017-11-13
 ------------------
 
