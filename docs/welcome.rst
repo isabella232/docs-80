@@ -10,15 +10,23 @@ Use the left navigation bar to browse the documentation, the Search bar in the t
 Release Notes
 =============
 
+1.4.3 - 2017-11-28
+------------------
+
+* [BUG] Fix Bitbucket Server oauth sign-in when hosted in a subdirectory (e.g.: https://example.com/bitbucket)
+* [BUG] Fix the commit date displayed on the project page.
+* [FEATURE] Plain sign-up (with user/password) can now be disabled with the env var `DISABLE_PLAIN_AUTH`
+
+
 1.4.2 - 2017-11-15
 ------------------
 
-* [Bug] Fix Bitbucket Server integration when hosted in a subdirectory (e.g.: https://example.com/bitbucket)
+* [BUG] Fix Bitbucket Server integration when hosted in a subdirectory (e.g.: https://example.com/bitbucket)
 
 1.4.1 - 2017-11-13
 ------------------
 
-* [Bug] Fix a regression affecting Bitbucket Server integration
+* [BUG] Fix a regression affecting Bitbucket Server integration
 
 1.4.0 - 2017-10-26
 ------------------
