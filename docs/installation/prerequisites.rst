@@ -4,7 +4,7 @@ Prerequisites
 Subscriptions
 -------------
 
-* As Gemnasium Enterprise is provided as a docker image, you must have a `Docker Hub <https://hub.docker.com>`_ or `Quay <https://quay.io>`_ account to download it.
+* As Gemnasium Enterprise is provided as a docker image, you must have a `Docker Hub <https://hub.docker.com>`_ account to download it.
 * A Gemnasium Enterprise license is required. If do not have your license yet, please contact our `support <email:support@gemnasium.com>`_.
 
 System Requirements

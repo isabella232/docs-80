@@ -31,7 +31,6 @@ Address                   Port                      Protocol  Usage
 sync.gemnasium.com        443                       tcp       Sync with Gemnasium main DB
 index.docker.io           443                       tcp       Pull updates of gemnasium/enterprise image,
                                                               if used.
-quay.io                   443                       tcp       Quay docker repository, if used.
 ========================  ========================  ========= ===========================================
 
 What data is sent to sync.gemnasium.com?

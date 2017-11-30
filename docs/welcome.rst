@@ -10,6 +10,12 @@ Use the left navigation bar to browse the documentation, the Search bar in the t
 Release Notes
 =============
 
+1.5.0 - Unreleased
+------------------
+
+* [MISC] Removed Quay support
+
+
 1.4.3 - 2017-11-28
 ------------------
 
