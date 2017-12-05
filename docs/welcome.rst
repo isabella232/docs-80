@@ -15,7 +15,7 @@ Release Notes
 
 * [BUG] Fix Bitbucket Server oauth sign-in when hosted in a subdirectory (e.g.: https://example.com/bitbucket)
 * [BUG] Fix the commit date displayed on the project page.
-* [FEATURE] Plain sign-up (with user/password) can now be disabled with the env var `DISABLE_PLAIN_AUTH`
+* [FEATURE] Plain sign-up (with user/password) can now be disabled with the env var ``DISABLE_PLAIN_AUTH`` set to "true"
 
 
 1.4.2 - 2017-11-15
