@@ -13,7 +13,7 @@ Compose expects each line in an env file to be in VAR=VAL format. Lines beginnin
 
 To use the environment file, add the ``--env-file=[file name]`` to your ``docker run`` command line.
 
-With docker-compose, the name should be named ``.env`` in the same directory as your ``docker-compose.yaml`` file, and will be loaded automatically. 
+With docker-compose, the name should be named ``.env`` in the same directory as your ``docker-compose.yaml`` file, and will be loaded automatically.
 Remember to specify the env variables expected in the file, otherwise docker-compose will simply ignore them.
 
 Variables List
@@ -55,4 +55,12 @@ Variables List
 +----------------------------+----------------------------------+------------------------------------+-------------------+
 | ``DISABLE_PLAIN_AUTH``     | Allow to disable the plain sign  | optional                           | false             |
 |                            | in & sign up feature             |                                    |                   |
++----------------------------+----------------------------------+------------------------------------+-------------------+
+| Misc                                                                                                                   |
++----------------------------+----------------------------------+------------------------------------+-------------------+
+| ``RECAPTCHA_SITE_KEY``     | Your recaptcha site key, for     | optional                           |                   |
+|                            | client side integration          |                                    |                   |
++----------------------------+----------------------------------+------------------------------------+-------------------+
+| ``RECAPTCHA_SECRET_KEY``   | Your recaptcha secret key, for   | optional                           |                   |
+|                            | server side integration          |                                    |                   |
 +----------------------------+----------------------------------+------------------------------------+-------------------+
