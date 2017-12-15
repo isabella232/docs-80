@@ -10,9 +10,19 @@ Use the left navigation bar to browse the documentation, the Search bar in the t
 Release Notes
 =============
 
-1.5.0 - Unreleased
+1.5.0 - 2017-12-15
 ------------------
 
+* [FEATURE] Add support for `gems.rb` et `gems.locked` files
+* [FEATURE] Improve parsing of Maven version numbers
+* [FEATURE] Add support of `Gemnasium maven plugin <https://github.com/gemnasium/gemnasium-maven-plugin>`_
+* [FEATURE] Allow user to regenerate API Key
+* [FEATURE] Improve project vulnerabilities page with filters and search
+* [FEATURE] Add Admin area with users list
+* [FEATURE] Allow an Admin to block/unblock a user
+* [FEATURE] Add a welcome page to create first Admin (only for new install)
+* [FEATURE] Add support for reCAPTCHA on plain signup
+* [FEATURE] Update sidebar design with big icons
 * [MISC] Removed Quay support
 
 
