@@ -23,6 +23,7 @@ Release Notes
 * [FEATURE] Add a welcome page to create first Admin (only for new install)
 * [FEATURE] Add support for reCAPTCHA on plain signup
 * [FEATURE] Update sidebar design with big icons
+* [BUG] Invalid headers were causing "Connection lost" issues on some browsers (espcially Safari)
 * [MISC] Removed Quay support
 
 
